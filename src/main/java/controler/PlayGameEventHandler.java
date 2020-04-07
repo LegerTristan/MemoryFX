@@ -10,6 +10,10 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
 
+/*
+ * Modifie la scène pour afficher le jeu.
+ */
+
 public class PlayGameEventHandler implements EventHandler<MouseEvent> {
 
 	private GridPane gameInterface = new GridPane();
@@ -18,7 +22,7 @@ public class PlayGameEventHandler implements EventHandler<MouseEvent> {
 	private Game game = new Game();
 
 	private Button btnPlay;
-
+	
 	public PlayGameEventHandler(Button btn) {
 
 		this.btnPlay = btn;

@@ -28,6 +28,10 @@ public class Card extends Rectangle {
 		this.addEventFilter(MouseEvent.MOUSE_CLICKED, new Game.ReturnCarte(game));
 	}
 	
+	/*
+	 * Gestion de la surbrillance des cartes lorsque la souris passe dessus.
+	 */
+	
 	public class Highlighted implements EventHandler<MouseEvent>{
 		
 		private Game game;

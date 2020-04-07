@@ -33,6 +33,10 @@ public class MemoryFX extends Window{
 		launch(args);
 
 	}
+	
+	/*
+	 * Initialisation du logiciel et des éléments nécessaires à l'affichage du menu
+	 */
 
 	@Override
 	public void initMemory() {
@@ -61,6 +65,10 @@ public class MemoryFX extends Window{
 		btnPlay.addEventFilter(MouseEvent.MOUSE_CLICKED, new PlayGameEventHandler(this.btnPlay));
 		
 	}
+	
+	/*
+	 * Initialisation des éléments d'affichage du menu
+	 */
 
 	private void initElements() {
 		
@@ -77,6 +85,10 @@ public class MemoryFX extends Window{
 		lbTitle.setFont(new Font("Arial", 32.0));
 		
 	}
+	
+	/*
+	 * Positionnement du menu
+	 */
 	
 	private void positionning() {
 		

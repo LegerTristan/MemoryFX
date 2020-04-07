@@ -59,6 +59,10 @@ private GameInteraction interaction;
 	public static int getNumberPairs() {
 		return numberOfPairs;
 	}
+	
+	/*
+	 * Lancement du jeu et création de l'interface
+	 */
 
 	public BorderPane launching(GridPane gameGrid, BorderPane hud){
 		
@@ -120,6 +124,10 @@ private GameInteraction interaction;
 		 
 		 return hud;	
 	}
+	
+	/*
+	 * Les cartes sont posées sur la grille de 3x4
+	 */
 
 	private void positionningCards(GridPane gameGrid) {
 
@@ -183,6 +191,10 @@ private GameInteraction interaction;
 	public void setVisibleCard(Set<Rectangle> visibleCard) {
 		this.visibleCard = visibleCard;
 	}
+	
+	/*
+	 * Gestion des cartes retournées
+	 */
 
 	public static class ReturnCarte implements EventHandler<MouseEvent>{
 		
@@ -282,6 +294,14 @@ private GameInteraction interaction;
 
 		}
 	}
+	
+	/*
+	 * Bloque les interactions et vérifie l'indentité des deux cartes retournées
+	 * 	Identique : Elles sont retirées de la liste des cartes restantes et le joueur augmente son score
+	 * 				de plus, sa série de paire trouvée augmente de 10 (points bonus lros des scores).
+	 * 	Pas identique : Elles sont retournées face cachée, et la série du joueur est réinitialisé à 0.
+	 * (Nécessite un refactoring)
+	 */
 
 	public void cacherLesCartes() {
 		
@@ -343,6 +363,10 @@ private GameInteraction interaction;
 		
 	}
 
+	/*
+	 * Vérifie si le jeu est finie.
+	 */
+	
 	private boolean beDone() {
 		
 		return numberPairsFound == numberOfPairs ? true : false;

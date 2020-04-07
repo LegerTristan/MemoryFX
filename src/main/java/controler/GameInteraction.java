@@ -43,6 +43,12 @@ private ScoreManager manager;
 		manager.setScore(manager.getScore() - (20 * nbrMoves) - 20);
 		
 	}
+	
+	/*
+	 * Édite le score à chaque fois que le joueur trouve une paire de carte.
+	 * Le calcul est basé sur le score précédent + les points d'enchaînement 
+	 */
+	
 
 	public void increaseScore() {
 

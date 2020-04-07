@@ -82,8 +82,12 @@ private StackPane endScreen;
 		
 		lbNumberSeries = new Label("+ " +  (interaction.returnPointBySeries()));
 		lbNumberSeries.setFont(new Font(26));
-}
+	}
 
+	/*
+	 * Positionne les éléments du menu de fin de jeu.
+	 */
+	
 	private void positionning() {
 		
 		lbEnd.setPadding(new Insets(30.0, 60.0, 30.0, 60.0));
