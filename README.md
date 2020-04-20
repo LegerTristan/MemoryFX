@@ -5,6 +5,7 @@
 ## Présentation
 
 MemoryFX est un memory réalisé avec la bibliothèque JavaFX de Java (destiné principalement pour les applications de bureau) via l'IDE Eclipse.
+J'ai réalisé cette application seul durant les vacances d'été 2019 afin de peaufiner mes acquis et de les mettre en relation sur un sujet.
 
 ## Lancer MemoryFX
 
