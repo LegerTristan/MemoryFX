@@ -16,7 +16,7 @@ Pour lancer MemoryFX, il vous faudra posséder au préalable :
 * JavaFX (ou e(fx)clipse pour les utilisateurs d'Eclipse)
 
 Il vous faut ensuite **cloner le dépôt** sur votre pc via **Git**, ou **télécharger l'archive ZIP** à partir du *Download* en vert se situant en haut à droite du dépôt.
-Une fois le projet en votre possession, ouvrez la avec votre IDE préféré, puis lancer l'application (le *main* de l'application se trouve dans la classe *MemoryFX.java*)
+Une fois le projet en votre possession, ouvrez le avec votre IDE préféré, puis lancer l'application (le *main* de l'application se trouve dans la classe *MemoryFX.java*)
 
 
 ## Fonctionnement de l'application
