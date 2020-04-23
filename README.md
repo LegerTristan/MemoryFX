@@ -31,3 +31,7 @@ L'enchaînement de pair trouvée est calculé par le biais d'un multiplicateur q
 
 Une fois toutes les pairs obtenues, l'écran de fin de partie apparaît avec le score final ainsi qu'un bouton "Rejouer".
 Les scores précédents ne sont pas sauvegardés.
+
+## État du projet
+
+Terminé.
